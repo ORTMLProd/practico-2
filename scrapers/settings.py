@@ -67,7 +67,7 @@ ITEM_PIPELINES = {
     # "scrapy.pipelines.images.ImagesPipeline": 120
 }
 
-IMAGES_STORE = "s3://ml-en-produccion"
+IMAGES_STORE = "s3://mlprod-bucket"
 # IMAGES_STORE = "<local_path>"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
